@@ -1,0 +1,99 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.div1 {
+    grid-area: 1 / 5 / 2 / 3;
+}
+
+.div2 {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.div3 {
+    grid-area: 1 / 4 / 2 / 5;
+}
+
+.div4 {
+    grid-area: 2 / 2 / 3 / 4;
+}
+
+.div5 {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+
+.box{
+    background: white;
+    height: 200px;
+    width: 300px;
+    margin: 30px 30px;
+}
+
+.btn_test{
+    color: white;
+    border: 2px solid white;
+    padding: 6px 14px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    font-size: 30px
+}
+
+.box:hover .btn_test{
+    color: #fc4626;
+    border: 2px solid #fc4626;
+    padding: 6px 14px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    font-size: 30px
+}
+
+
+.btn_box{
+    position: relative;
+    top: 80px;
+    left: 30px;
+}
+
+.heading{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.box:hover .heading{
+    color: #fc4626;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+}
+
+.science{
+    background-color: #fc4626;
+    background-image: url(./bgimg/science.jpeg);
+}
+
+.commerce{
+    background-size: contain;
+    background-color: #fc4626;
+    background-image: url(./bgimg/commerce.jpeg);
+}
+
+.arts{
+    background-color: #fc4626;
+    background-image: url(./bgimg/arts.jpeg);
+    background-size: contain;
+}
+
+.analysis{
+    background-color: #fc4626;
+    background-image: url(./bgimg/analysis.jpg);
+    background-size: contain;
+}
